@@ -57,22 +57,27 @@ En JavaScript, existen dos grandes categorías de tipos de datos:
 
 ## 📊 Primitivos (almacenan un solo valor)
 
+```js
 let nombre = "Carlos"; // String (Texto)
 let edad = 25; // Number (Números enteros o decimales)
 let esMayor = true; // Boolean (Verdadero o falso)
 let vacio = null; // Null (Valor nulo o vacío)
 let sinValor; // Undefined (Variable sin valor asignado)
+```
 
 ## 🔧 Estructuras de Datos (Para agrupar información)
 
 ## 📈 Arrays (Listas de datos ordenados)
 
+```js
 let frutas = ["Manzana", "Banana", "Naranja"];
 console.log(frutas[0]); // "Manzana"
 console.log(frutas.length); // 3
+```
 
 ## 🔧 Objetos (Datos estructurados con clave-valor)
 
+```js
 let persona = {
   nombre: "Carlos",
   edad: 25,
@@ -81,6 +86,8 @@ let persona = {
 
 console.log(persona.nombre); // "Carlos"
 console.log(persona["edad"]); // 25
+```
+
 
 ## 🔍 Estructuras de Control: Condicional if
 
@@ -88,6 +95,7 @@ Las estructuras de control nos permiten ejecutar diferentes bloques de código s
 
 ## 📌 Sintaxis básica
 
+```js
 if (condición) {
   // Código que se ejecuta si la condición es verdadera
 } else if (otraCondición) {
@@ -95,9 +103,11 @@ if (condición) {
 } else {
   // Código si ninguna de las condiciones anteriores se cumple
 }
+```
 
 ## 🔧 Ejemplo:
 
+```js
 let edad = 18;
 
 if (edad >= 18) {
@@ -105,11 +115,13 @@ if (edad >= 18) {
 } else {
   console.log("Eres menor de edad.");
 }
+```
 
 ## ⚡ Uso con múltiples condiciones
 
 Podemos evaluar más condiciones con else if:
 
+```js
 let temperatura = 30;
 
 if (temperatura > 30) {
@@ -119,5 +131,6 @@ if (temperatura > 30) {
 } else {
   console.log("Hace frío.");
 }
+```
 
 ## 📌 Nota: Las condiciones se evalúan en orden, de arriba hacia abajo. Cuando una se cumple, el resto se ignora.
