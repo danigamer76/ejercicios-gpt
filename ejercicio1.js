@@ -1,12 +1,11 @@
-/**
- * Declara variables para:
-     Tu nombre
-     Tu edad
-     Tu país
+// 🎯 Ejercicio Día 1: Variables y Operaciones Básicas
+// 1. Declara variables para:
+//    - Tu nombre
+//    - Tu edad
+//    - Tu país
+// 2. Muestra un mensaje en la consola con este formato:
+//    "Hola, mi nombre es [nombre], tengo [edad] años y soy de [país]."
 
- * Muestra las variables en consola
-   Hola, mi nombre es [tu nombre], tengo [tu edad] años y soy de [tu país].
- */
 let nombre = "Daniel"
 let edad = 27
 let pais = "España"
