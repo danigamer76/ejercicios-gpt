@@ -49,13 +49,13 @@ console.log(saludo); // Hola, Carlos!
 
 ---
 
-📅 Día 2: Tipos de Datos y Estructuras Básicas en JavaScript
+## 📅 Día 2: Tipos de Datos y Estructuras Básicas en JavaScript
 
-📚 Tipos de Datos en JavaScript
+## 📚 Tipos de Datos en JavaScript
 
 En JavaScript, existen dos grandes categorías de tipos de datos:
 
-📊 Primitivos (almacenan un solo valor)
+## 📊 Primitivos (almacenan un solo valor)
 
 let nombre = "Carlos"; // String (Texto)
 let edad = 25; // Number (Números enteros o decimales)
@@ -63,15 +63,15 @@ let esMayor = true; // Boolean (Verdadero o falso)
 let vacio = null; // Null (Valor nulo o vacío)
 let sinValor; // Undefined (Variable sin valor asignado)
 
-🔧 Estructuras de Datos (Para agrupar información)
+## 🔧 Estructuras de Datos (Para agrupar información)
 
-📈 Arrays (Listas de datos ordenados)
+## 📈 Arrays (Listas de datos ordenados)
 
 let frutas = ["Manzana", "Banana", "Naranja"];
 console.log(frutas[0]); // "Manzana"
 console.log(frutas.length); // 3
 
-🔧 Objetos (Datos estructurados con clave-valor)
+## 🔧 Objetos (Datos estructurados con clave-valor)
 
 let persona = {
   nombre: "Carlos",
@@ -82,11 +82,11 @@ let persona = {
 console.log(persona.nombre); // "Carlos"
 console.log(persona["edad"]); // 25
 
-🔍 Estructuras de Control: Condicional if
+## 🔍 Estructuras de Control: Condicional if
 
 Las estructuras de control nos permiten ejecutar diferentes bloques de código según condiciones específicas. Una de las más utilizadas es if.
 
-📌 Sintaxis básica
+## 📌 Sintaxis básica
 
 if (condición) {
   // Código que se ejecuta si la condición es verdadera
@@ -96,7 +96,7 @@ if (condición) {
   // Código si ninguna de las condiciones anteriores se cumple
 }
 
-🔧 Ejemplo:
+## 🔧 Ejemplo:
 
 let edad = 18;
 
@@ -106,7 +106,7 @@ if (edad >= 18) {
   console.log("Eres menor de edad.");
 }
 
-⚡ Uso con múltiples condiciones
+## ⚡ Uso con múltiples condiciones
 
 Podemos evaluar más condiciones con else if:
 
@@ -120,4 +120,4 @@ if (temperatura > 30) {
   console.log("Hace frío.");
 }
 
-📌 Nota: Las condiciones se evalúan en orden, de arriba hacia abajo. Cuando una se cumple, el resto se ignora.
+## 📌 Nota: Las condiciones se evalúan en orden, de arriba hacia abajo. Cuando una se cumple, el resto se ignora.
