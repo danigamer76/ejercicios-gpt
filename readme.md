@@ -48,20 +48,3 @@ console.log(saludo); // Hola, Carlos!
 ```
 
 ---
-
-## 🛠️ Reto para hoy
-1. Crea un archivo `ejercicio1.js`.
-2. Declara variables para:
-   - Tu nombre
-   - Tu edad
-   - Tu país
-3. Muestra un mensaje en la consola con este formato:
-   ```
-   Hola, mi nombre es [tu nombre], tengo [tu edad] años y soy de [tu país].
-   ```
-
-### 💡 Pista
-Usa `console.log()` y el operador `+` para unir textos.
-
-Cuando termines, súbelo a **GitHub**. ✅
-
