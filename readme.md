@@ -131,6 +131,7 @@ if (temperatura > 30) {
 } else {
   console.log("Hace frío.");
 }
+```
 
 📌 Nota: Las condiciones se evalúan en orden, de arriba hacia abajo. Cuando una se cumple, el resto se ignora.
 
