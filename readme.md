@@ -131,54 +131,5 @@ if (temperatura > 30) {
 } else {
   console.log("Hace frío.");
 }
-```
 
-## 📌 Nota: Las condiciones se evalúan en orden, de arriba hacia abajo. Cuando una se cumple, el resto se ignora.
-
-# 📅 Día 3: Bucles en JavaScript
-
-Los **bucles** nos permiten ejecutar un bloque de código varias veces sin necesidad de escribirlo repetidamente. En JavaScript, los bucles más usados son:
-
-## 🔁 Bucle `for`
-Se usa cuando sabemos cuántas veces queremos repetir una acción.
-
-### 📌 Sintaxis básica:
-```js
-for (inicialización; condición; actualización) {
-  // Código a ejecutar en cada iteración
-}
-```
-
-### 🔧 Ejemplo:
-```js
-for (let i = 1; i <= 5; i++) {
-  console.log("Número:", i);
-}
-```
-
-## 🔁 Bucle `while`
-Ejecuta el código **mientras la condición sea verdadera**.
-
-### 📌 Ejemplo:
-```js
-let contador = 1;
-while (contador <= 5) {
-  console.log("Contador:", contador);
-  contador++;
-}
-```
-
-## 🔁 Bucle `do...while`
-Primero ejecuta el código y luego verifica la condición.
-
-### 📌 Ejemplo:
-```js
-let numero = 1;
-do {
-  console.log("Número:", numero);
-  numero++;
-} while (numero <= 5);
-```
-
----
-
+📌 Nota: Las condiciones se evalúan en orden, de arriba hacia abajo. Cuando una se cumple, el resto se ignora.
