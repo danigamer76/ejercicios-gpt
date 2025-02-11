@@ -181,3 +181,40 @@ do {
 ```
 
 ---
+
+# 📅 Día 4: Funciones en JavaScript
+
+Las **funciones** nos permiten reutilizar código y hacer que nuestro programa sea más modular y fácil de mantener. En JavaScript, existen diferentes maneras de definir funciones.
+
+## 🔹 Función Declarada
+Es la forma más común de definir una función.
+
+```js
+function saludar(nombre) {
+  return "Hola, " + nombre + "!";
+}
+
+console.log(saludar("Carlos")); // "Hola, Carlos!"
+```
+
+## 🔹 Función Expresada
+Se asigna una función a una variable.
+
+```js
+const despedir = function(nombre) {
+  return "Adiós, " + nombre + "!";
+};
+
+console.log(despedir("Ana")); // "Adiós, Ana!"
+```
+
+## 🔹 Función Flecha (Arrow Function)
+Una forma más corta de escribir funciones en JavaScript.
+
+```js
+const multiplicar = (a, b) => a * b;
+
+console.log(multiplicar(3, 4)); // 12
+```
+
+---
